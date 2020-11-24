@@ -1,0 +1,4 @@
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"name": "chat_1", "users": ["<Butenko-m-v>", "<dlvtt>", "<KirillDyachenco>", "<krivobokova>"]}' \
+  http://localhost:9000/chats/add
